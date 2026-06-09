@@ -1,0 +1,18 @@
+spring:
+  ai:
+    openai:
+      # Use the "Smart" model for production users
+      chat:
+        options:
+          model: ${API_MODEL}
+      base-url: ${OPENAI_API_URL}
+      # NEVER hardcode keys here. Always use environment variables.
+      api-key: ${OPEN_API_KEY}
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: WARN
+    org.sanjay.springaionewaychatbot: INFO
