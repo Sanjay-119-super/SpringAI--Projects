@@ -12,7 +12,8 @@ import java.util.concurrent.ConcurrentMap;
 @RequestMapping("/api/chat")
 @CrossOrigin(origins = {
         "https://cfschat-5xl8uki34-saginfo54-3311s-projects.vercel.app",
-        "https://cfschat.vercel.app"
+        "https://cfschat.vercel.app",
+        "https://cfschat-saginfo54-3311s-projects.vercel.app/"
 })
 public class ChatController {
 
