@@ -10,7 +10,7 @@ import java.util.concurrent.ConcurrentMap;
 
 @RestController
 @RequestMapping("/api/chat")
-@CrossOrigin(origins = "https://cfs-chat.onrender.com/")
+@CrossOrigin(origins = "https://cfschat.vercel.app/")
 public class ChatController {
 
     private final ChatClient chatClient;
