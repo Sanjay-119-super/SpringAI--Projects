@@ -1,6 +1,6 @@
 
 
-#  CFS Chat - Spring AI Chatbot
+# Project -1  CFS Chat - Spring AI Chatbot
 
 A production-ready, industry-standard AI chatbot built with **Spring Boot 4**, **Spring AI**, and **Groq**. Designed to help Code For Success (CFS) engineers learn Java Full-Stack development through an optimized, resilient, and secure architecture.
 
