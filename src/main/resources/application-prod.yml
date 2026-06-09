@@ -5,7 +5,7 @@ spring:
       chat:
         options:
           model: ${API_MODEL}
-      base-url: ${OPENAI_API_URL}
+      base-url: ${OPEN_API_URL}
       # NEVER hardcode keys here. Always use environment variables.
       api-key: ${OPEN_API_KEY}
 
