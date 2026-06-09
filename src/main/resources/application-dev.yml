@@ -1,0 +1,18 @@
+spring:
+  ai:
+    openai:
+      # Use a faster model for quick local testing
+      chat:
+        options:
+          model: ${API_MODEL}
+      base-url: ${OPEN_API_URL}
+      # You can put your key here for local dev, or use an env variable
+      api-key: ${OPEN_API_KEY}
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    org.sanjay.springaionewaychatbot: DEBUG
